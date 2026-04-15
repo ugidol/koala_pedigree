@@ -597,7 +597,7 @@
                 const data = node.data();
                 const born = data.born ? new Date(data.born).toLocaleDateString('ja-JP') : '不明';
                 const died = data.died ? new Date(data.died).toLocaleDateString('ja-JP') : '生存中';
-                const status = data.status === 'alive' ? '生存中' : '故';
+                const status = data.status === 'alive' ? '生存中' : '👼';
                 
                 let tooltip = `${data.label}<br>性別: ${data.sex === 'M' ? 'オス' : 'メス'}<br>`;
                 tooltip += `生年月日: ${born}<br>状態: ${status}`;

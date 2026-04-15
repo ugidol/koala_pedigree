@@ -1575,23 +1575,10 @@
     },
     {
       "id": "koala_122",
-      "name": "ぼたん",
-      "sex": "F",
-      "generation": 3,
-      "x": 650,
-      "y": 600,
-      "born": "2017-05-11T15:00:00.000Z",
-      "died": "2024-12-12T15:00:00.000Z",
-      "alive": false,
-      "dam_id": "#N/A",
-      "sire_id": 80
-    },
-    {
-      "id": "koala_123",
       "name": "ナナ（東山）",
       "sex": "F",
       "generation": 3,
-      "x": 770,
+      "x": 650,
       "y": 600,
       "born": "1999-07-03T15:00:00.000Z",
       "died": "2011-02-28T15:00:00.000Z",
@@ -1600,11 +1587,11 @@
       "sire_id": 75
     },
     {
-      "id": "koala_124",
+      "id": "koala_123",
       "name": "ミリー",
       "sex": "F",
       "generation": 3,
-      "x": 890,
+      "x": 770,
       "y": 600,
       "born": "",
       "died": "",
@@ -1613,11 +1600,11 @@
       "sire_id": 75
     },
     {
-      "id": "koala_125",
+      "id": "koala_124",
       "name": "サクラ",
       "sex": "F",
       "generation": 3,
-      "x": 1010,
+      "x": 890,
       "y": 600,
       "born": "",
       "died": "",
@@ -1626,11 +1613,11 @@
       "sire_id": 106
     },
     {
-      "id": "koala_126",
+      "id": "koala_125",
       "name": "グレート",
       "sex": "M",
       "generation": 3,
-      "x": 1130,
+      "x": 1010,
       "y": 600,
       "born": "",
       "died": "",
@@ -1639,12 +1626,12 @@
       "sire_id": 113
     },
     {
-      "id": "koala_127",
+      "id": "koala_126",
       "name": "アオイ",
       "sex": "M",
       "generation": 3,
-      "x": 50,
-      "y": 720,
+      "x": 1130,
+      "y": 600,
       "born": "",
       "died": "",
       "alive": false,
@@ -1652,11 +1639,11 @@
       "sire_id": 117
     },
     {
-      "id": "koala_128",
+      "id": "koala_127",
       "name": "いぶき",
       "sex": "F",
       "generation": 3,
-      "x": 170,
+      "x": 50,
       "y": 720,
       "born": "2020-08-26T15:00:00.000Z",
       "died": "",
@@ -1665,11 +1652,11 @@
       "sire_id": 82
     },
     {
-      "id": "koala_129",
+      "id": "koala_128",
       "name": "ピーター",
       "sex": "M",
       "generation": 3,
-      "x": 290,
+      "x": 170,
       "y": 720,
       "born": "2016-03-27T15:00:00.000Z",
       "died": "",
@@ -1678,11 +1665,11 @@
       "sire_id": 79
     },
     {
-      "id": "koala_130",
+      "id": "koala_129",
       "name": "サツキ",
       "sex": "F",
       "generation": 3,
-      "x": 410,
+      "x": 290,
       "y": 720,
       "born": "1993-05-13T15:00:00.000Z",
       "died": "2003-03-09T15:00:00.000Z",
@@ -1691,11 +1678,11 @@
       "sire_id": 151
     },
     {
-      "id": "koala_131",
+      "id": "koala_130",
       "name": "ユリ",
       "sex": "F",
       "generation": 3,
-      "x": 530,
+      "x": 410,
       "y": 720,
       "born": "1993-08-10T15:00:00.000Z",
       "died": "2005-04-15T15:00:00.000Z",
@@ -1704,11 +1691,11 @@
       "sire_id": 151
     },
     {
-      "id": "koala_132",
+      "id": "koala_131",
       "name": "カンナ",
       "sex": "F",
       "generation": 3,
-      "x": 650,
+      "x": 530,
       "y": 720,
       "born": "1994-10-02T15:00:00.000Z",
       "died": "2003-03-18T15:00:00.000Z",
@@ -1717,11 +1704,11 @@
       "sire_id": 159
     },
     {
-      "id": "koala_133",
+      "id": "koala_132",
       "name": "ケン",
       "sex": "M",
       "generation": 3,
-      "x": 770,
+      "x": 650,
       "y": 720,
       "born": "1995-05-02T15:00:00.000Z",
       "died": "2005-07-08T15:00:00.000Z",
@@ -1730,11 +1717,11 @@
       "sire_id": 150
     },
     {
-      "id": "koala_134",
+      "id": "koala_133",
       "name": "アキ",
       "sex": "F",
       "generation": 3,
-      "x": 890,
+      "x": 770,
       "y": 720,
       "born": "1995-09-11T15:00:00.000Z",
       "died": "2009-10-23T15:00:00.000Z",
@@ -1743,11 +1730,11 @@
       "sire_id": 26
     },
     {
-      "id": "koala_135",
+      "id": "koala_134",
       "name": "リュー",
       "sex": "M",
       "generation": 3,
-      "x": 1010,
+      "x": 890,
       "y": 720,
       "born": "1996-05-13T15:00:00.000Z",
       "died": "1997-11-11T15:00:00.000Z",
@@ -1756,11 +1743,11 @@
       "sire_id": 151
     },
     {
-      "id": "koala_136",
+      "id": "koala_135",
       "name": "ラム（平川）",
       "sex": "F",
       "generation": 3,
-      "x": 1130,
+      "x": 1010,
       "y": 720,
       "born": "1996-08-21T15:00:00.000Z",
       "died": "2008-11-13T15:00:00.000Z",
@@ -1769,12 +1756,12 @@
       "sire_id": 150
     },
     {
-      "id": "koala_137",
+      "id": "koala_136",
       "name": "カツキ",
       "sex": "M",
       "generation": 3,
-      "x": 50,
-      "y": 840,
+      "x": 1130,
+      "y": 720,
       "born": "1996-12-09T15:00:00.000Z",
       "died": "2003-12-07T15:00:00.000Z",
       "alive": false,
@@ -1782,11 +1769,11 @@
       "sire_id": 150
     },
     {
-      "id": "koala_138",
+      "id": "koala_137",
       "name": "ジュリ",
       "sex": "F",
       "generation": 3,
-      "x": 170,
+      "x": 50,
       "y": 840,
       "born": "1997-07-30T15:00:00.000Z",
       "died": "2009-02-04T15:00:00.000Z",
@@ -1795,11 +1782,11 @@
       "sire_id": 150
     },
     {
-      "id": "koala_139",
+      "id": "koala_138",
       "name": "ミライ（平川）",
       "sex": "M",
       "generation": 3,
-      "x": 290,
+      "x": 170,
       "y": 840,
       "born": "1999-04-21T15:00:00.000Z",
       "died": "",
@@ -1808,11 +1795,11 @@
       "sire_id": 154
     },
     {
-      "id": "koala_140",
+      "id": "koala_139",
       "name": "リッキー",
       "sex": "M",
       "generation": 3,
-      "x": 410,
+      "x": 290,
       "y": 840,
       "born": "2005-06-02T15:00:00.000Z",
       "died": "2009-04-27T15:00:00.000Z",
@@ -1821,11 +1808,11 @@
       "sire_id": 29
     },
     {
-      "id": "koala_141",
+      "id": "koala_140",
       "name": "インディコ",
       "sex": "F",
       "generation": 3,
-      "x": 530,
+      "x": 410,
       "y": 840,
       "born": "2019-12-21T15:00:00.000Z",
       "died": "",
@@ -1834,11 +1821,11 @@
       "sire_id": 82
     },
     {
-      "id": "koala_142",
+      "id": "koala_141",
       "name": "ヒナタ",
       "sex": "F",
       "generation": 3,
-      "x": 650,
+      "x": 530,
       "y": 840,
       "born": "2021-03-26T15:00:00.000Z",
       "died": "",
@@ -1847,11 +1834,11 @@
       "sire_id": 206
     },
     {
-      "id": "koala_143",
+      "id": "koala_142",
       "name": "アイ（平川）",
       "sex": "F",
       "generation": 3,
-      "x": 770,
+      "x": 650,
       "y": 840,
       "born": "2021-05-29T15:00:00.000Z",
       "died": "2022-11-05T15:00:00.000Z",
@@ -1860,11 +1847,11 @@
       "sire_id": 211
     },
     {
-      "id": "koala_144",
+      "id": "koala_143",
       "name": "カスミ",
       "sex": "F",
       "generation": 3,
-      "x": 890,
+      "x": 770,
       "y": 840,
       "born": "2024-05-31T15:00:00.000Z",
       "died": "",
@@ -1873,11 +1860,11 @@
       "sire_id": 220
     },
     {
-      "id": "koala_145",
+      "id": "koala_144",
       "name": "エイト",
       "sex": "M",
       "generation": 3,
-      "x": 1010,
+      "x": 890,
       "y": 840,
       "born": "2024-11-23T15:00:00.000Z",
       "died": "",
@@ -1886,7 +1873,7 @@
       "sire_id": 220
     },
     {
-      "id": "koala_146",
+      "id": "koala_145",
       "name": "モミジ",
       "sex": "M",
       "generation": 4,
@@ -1899,7 +1886,7 @@
       "sire_id": 31
     },
     {
-      "id": "koala_147",
+      "id": "koala_146",
       "name": "ミライ",
       "sex": "F",
       "generation": 4,
@@ -1912,7 +1899,7 @@
       "sire_id": 36
     },
     {
-      "id": "koala_148",
+      "id": "koala_147",
       "name": "こまち",
       "sex": "F",
       "generation": 4,
@@ -1925,7 +1912,7 @@
       "sire_id": 40
     },
     {
-      "id": "koala_149",
+      "id": "koala_148",
       "name": "ティムタム",
       "sex": "M",
       "generation": 4,
@@ -1938,7 +1925,7 @@
       "sire_id": 109
     },
     {
-      "id": "koala_150",
+      "id": "koala_149",
       "name": "ティガ",
       "sex": "M",
       "generation": 4,
@@ -1951,7 +1938,7 @@
       "sire_id": 31
     },
     {
-      "id": "koala_151",
+      "id": "koala_150",
       "name": "ソウタ",
       "sex": "M",
       "generation": 4,
@@ -1964,7 +1951,7 @@
       "sire_id": 36
     },
     {
-      "id": "koala_152",
+      "id": "koala_151",
       "name": "ハニー",
       "sex": "F",
       "generation": 4,
@@ -1977,37 +1964,11 @@
       "sire_id": "#N/A"
     },
     {
-      "id": "koala_153",
-      "name": "たんぽぽ",
-      "sex": "F",
-      "generation": 4,
-      "x": 890,
-      "y": 800,
-      "born": "2020-04-25T15:00:00.000Z",
-      "died": "",
-      "alive": true,
-      "dam_id": 70,
-      "sire_id": 6
-    },
-    {
-      "id": "koala_154",
-      "name": "ひなぎく",
-      "sex": "F",
-      "generation": 4,
-      "x": 1010,
-      "y": 800,
-      "born": "2021-12-14T15:00:00.000Z",
-      "died": "2025-07-01T15:00:00.000Z",
-      "alive": false,
-      "dam_id": 70,
-      "sire_id": 6
-    },
-    {
-      "id": "koala_155",
+      "id": "koala_152",
       "name": "りん",
       "sex": "F",
       "generation": 4,
-      "x": 1130,
+      "x": 890,
       "y": 800,
       "born": "2017-08-22T15:00:00.000Z",
       "died": "",
@@ -2016,12 +1977,12 @@
       "sire_id": 40
     },
     {
-      "id": "koala_156",
+      "id": "koala_153",
       "name": "ジューン",
       "sex": "F",
       "generation": 4,
-      "x": 50,
-      "y": 920,
+      "x": 1010,
+      "y": 800,
       "born": "",
       "died": "",
       "alive": false,
@@ -2029,12 +1990,12 @@
       "sire_id": 113
     },
     {
-      "id": "koala_157",
+      "id": "koala_154",
       "name": "ジェックス",
       "sex": "M",
       "generation": 4,
-      "x": 170,
-      "y": 920,
+      "x": 1130,
+      "y": 800,
       "born": "1993-07-10T15:00:00.000Z",
       "died": "2005-11-08T15:00:00.000Z",
       "alive": false,
@@ -2042,11 +2003,11 @@
       "sire_id": 40
     },
     {
-      "id": "koala_158",
+      "id": "koala_155",
       "name": "ミドリ",
       "sex": "F",
       "generation": 4,
-      "x": 290,
+      "x": 50,
       "y": 920,
       "born": "1996-06-18T15:00:00.000Z",
       "died": "1997-06-22T15:00:00.000Z",
@@ -2055,11 +2016,11 @@
       "sire_id": 148
     },
     {
-      "id": "koala_159",
+      "id": "koala_156",
       "name": "カケル",
       "sex": "M",
       "generation": 4,
-      "x": 410,
+      "x": 170,
       "y": 920,
       "born": "1996-12-12T15:00:00.000Z",
       "died": "2001-06-29T15:00:00.000Z",
@@ -2068,11 +2029,11 @@
       "sire_id": 168
     },
     {
-      "id": "koala_160",
+      "id": "koala_157",
       "name": "ミッキー",
       "sex": "M",
       "generation": 4,
-      "x": 530,
+      "x": 290,
       "y": 920,
       "born": "1997-05-11T15:00:00.000Z",
       "died": "2010-01-05T15:00:00.000Z",
@@ -2081,11 +2042,11 @@
       "sire_id": 148
     },
     {
-      "id": "koala_161",
+      "id": "koala_158",
       "name": "カオリ（平川）",
       "sex": "F",
       "generation": 4,
-      "x": 650,
+      "x": 410,
       "y": 920,
       "born": "1997-05-23T15:00:00.000Z",
       "died": "2012-07-03T15:00:00.000Z",
@@ -2094,11 +2055,11 @@
       "sire_id": 148
     },
     {
-      "id": "koala_162",
+      "id": "koala_159",
       "name": "タカオ",
       "sex": "M",
       "generation": 4,
-      "x": 770,
+      "x": 530,
       "y": 920,
       "born": "1997-06-02T15:00:00.000Z",
       "died": "1998-09-11T15:00:00.000Z",
@@ -2107,11 +2068,11 @@
       "sire_id": 154
     },
     {
-      "id": "koala_163",
+      "id": "koala_160",
       "name": "クリス",
       "sex": "M",
       "generation": 4,
-      "x": 890,
+      "x": 650,
       "y": 920,
       "born": "1998-06-24T15:00:00.000Z",
       "died": "1999-01-23T15:00:00.000Z",
@@ -2120,11 +2081,11 @@
       "sire_id": 154
     },
     {
-      "id": "koala_164",
+      "id": "koala_161",
       "name": "ナギサ",
       "sex": "F",
       "generation": 4,
-      "x": 1010,
+      "x": 770,
       "y": 920,
       "born": "1998-06-27T15:00:00.000Z",
       "died": "2012-12-17T15:00:00.000Z",
@@ -2133,11 +2094,11 @@
       "sire_id": 154
     },
     {
-      "id": "koala_165",
+      "id": "koala_162",
       "name": "ケイ",
       "sex": "M",
       "generation": 4,
-      "x": 1130,
+      "x": 890,
       "y": 920,
       "born": "1999-09-14T15:00:00.000Z",
       "died": "",
@@ -2146,12 +2107,12 @@
       "sire_id": 168
     },
     {
-      "id": "koala_166",
+      "id": "koala_163",
       "name": "ホップ",
       "sex": "F",
       "generation": 4,
-      "x": 50,
-      "y": 1040,
+      "x": 1010,
+      "y": 920,
       "born": "1999-11-25T15:00:00.000Z",
       "died": "2003-11-19T15:00:00.000Z",
       "alive": false,
@@ -2159,12 +2120,12 @@
       "sire_id": 168
     },
     {
-      "id": "koala_167",
+      "id": "koala_164",
       "name": "アン",
       "sex": "F",
       "generation": 4,
-      "x": 170,
-      "y": 1040,
+      "x": 1130,
+      "y": 920,
       "born": "2004-06-14T15:00:00.000Z",
       "died": "2016-10-03T15:00:00.000Z",
       "alive": false,
@@ -2172,11 +2133,11 @@
       "sire_id": 168
     },
     {
-      "id": "koala_168",
+      "id": "koala_165",
       "name": "ハヅキ",
       "sex": "F",
       "generation": 4,
-      "x": 290,
+      "x": 50,
       "y": 1040,
       "born": "2004-08-01T15:00:00.000Z",
       "died": "2015-01-06T15:00:00.000Z",
@@ -2185,11 +2146,11 @@
       "sire_id": 33
     },
     {
-      "id": "koala_169",
+      "id": "koala_166",
       "name": "ウッドランド",
       "sex": "M",
       "generation": 4,
-      "x": 410,
+      "x": 170,
       "y": 1040,
       "born": "2004-08-25T15:00:00.000Z",
       "died": "2008-09-01T15:00:00.000Z",
@@ -2198,11 +2159,11 @@
       "sire_id": 109
     },
     {
-      "id": "koala_170",
+      "id": "koala_167",
       "name": "アラタ",
       "sex": "M",
       "generation": 4,
-      "x": 530,
+      "x": 290,
       "y": 1040,
       "born": "2023-06-13T15:00:00.000Z",
       "died": "",
@@ -2211,11 +2172,11 @@
       "sire_id": 220
     },
     {
-      "id": "koala_171",
+      "id": "koala_168",
       "name": "スター",
       "sex": "M",
       "generation": 4,
-      "x": 650,
+      "x": 410,
       "y": 1040,
       "born": "2023-11-17T15:00:00.000Z",
       "died": "",
@@ -2224,7 +2185,7 @@
       "sire_id": 220
     },
     {
-      "id": "koala_172",
+      "id": "koala_169",
       "name": "タイチ",
       "sex": "M",
       "generation": 5,
@@ -2237,7 +2198,7 @@
       "sire_id": 38
     },
     {
-      "id": "koala_173",
+      "id": "koala_170",
       "name": "エミ",
       "sex": "F",
       "generation": 5,
@@ -2250,11 +2211,24 @@
       "sire_id": 38
     },
     {
-      "id": "koala_174",
+      "id": "koala_171",
+      "name": "ウメ",
+      "sex": "F",
+      "generation": 5,
+      "x": 290,
+      "y": 1000,
+      "born": "2010-08-04T15:00:00.000Z",
+      "died": "2022-11-20T15:00:00.000Z",
+      "alive": false,
+      "dam_id": 3,
+      "sire_id": 34
+    },
+    {
+      "id": "koala_172",
       "name": "もなか",
       "sex": "M",
       "generation": 5,
-      "x": 290,
+      "x": 410,
       "y": 1000,
       "born": "2023-10-19T15:00:00.000Z",
       "died": "",
@@ -2263,11 +2237,11 @@
       "sire_id": 82
     },
     {
-      "id": "koala_175",
+      "id": "koala_173",
       "name": "テラ",
       "sex": "M",
       "generation": 5,
-      "x": 410,
+      "x": 530,
       "y": 1000,
       "born": "",
       "died": "",
@@ -2276,11 +2250,11 @@
       "sire_id": 38
     },
     {
-      "id": "koala_176",
+      "id": "koala_174",
       "name": "コウ",
       "sex": "M",
       "generation": 5,
-      "x": 530,
+      "x": 650,
       "y": 1000,
       "born": "1995-07-14T15:00:00.000Z",
       "died": "2010-09-09T15:00:00.000Z",
@@ -2289,11 +2263,11 @@
       "sire_id": 163
     },
     {
-      "id": "koala_177",
+      "id": "koala_175",
       "name": "ブン",
       "sex": "M",
       "generation": 5,
-      "x": 650,
+      "x": 770,
       "y": 1000,
       "born": "1996-05-02T15:00:00.000Z",
       "died": "2003-03-29T15:00:00.000Z",
@@ -2302,11 +2276,11 @@
       "sire_id": 163
     },
     {
-      "id": "koala_178",
+      "id": "koala_176",
       "name": "メリー",
       "sex": "F",
       "generation": 5,
-      "x": 770,
+      "x": 890,
       "y": 1000,
       "born": "1996-06-21T15:00:00.000Z",
       "died": "1998-01-14T15:00:00.000Z",
@@ -2315,11 +2289,11 @@
       "sire_id": 163
     },
     {
-      "id": "koala_179",
+      "id": "koala_177",
       "name": "コージ",
       "sex": "M",
       "generation": 5,
-      "x": 890,
+      "x": 1010,
       "y": 1000,
       "born": "1997-04-06T15:00:00.000Z",
       "died": "1999-07-17T15:00:00.000Z",
@@ -2328,11 +2302,11 @@
       "sire_id": 163
     },
     {
-      "id": "koala_180",
+      "id": "koala_178",
       "name": "サナエ",
       "sex": "F",
       "generation": 5,
-      "x": 1010,
+      "x": 1130,
       "y": 1000,
       "born": "1999-05-24T15:00:00.000Z",
       "died": "2011-11-16T15:00:00.000Z",
@@ -2341,12 +2315,12 @@
       "sire_id": 163
     },
     {
-      "id": "koala_181",
+      "id": "koala_179",
       "name": "ココ（平川）",
       "sex": "F",
       "generation": 5,
-      "x": 1130,
-      "y": 1000,
+      "x": 50,
+      "y": 1120,
       "born": "1999-07-24T15:00:00.000Z",
       "died": "2016-10-18T15:00:00.000Z",
       "alive": false,
@@ -2354,11 +2328,11 @@
       "sire_id": 115
     },
     {
-      "id": "koala_182",
+      "id": "koala_180",
       "name": "ジャンプ",
       "sex": "M",
       "generation": 5,
-      "x": 50,
+      "x": 170,
       "y": 1120,
       "born": "2000-11-30T15:00:00.000Z",
       "died": "2001-10-18T15:00:00.000Z",
@@ -2367,11 +2341,11 @@
       "sire_id": 163
     },
     {
-      "id": "koala_183",
+      "id": "koala_181",
       "name": "ピックス",
       "sex": "M",
       "generation": 5,
-      "x": 170,
+      "x": 290,
       "y": 1120,
       "born": "2003-06-27T15:00:00.000Z",
       "died": "2019-01-20T15:00:00.000Z",
@@ -2380,11 +2354,11 @@
       "sire_id": 163
     },
     {
-      "id": "koala_184",
+      "id": "koala_182",
       "name": "ウルル",
       "sex": "M",
       "generation": 5,
-      "x": 290,
+      "x": 410,
       "y": 1120,
       "born": "2007-05-25T15:00:00.000Z",
       "died": "2017-12-17T15:00:00.000Z",
@@ -2393,11 +2367,11 @@
       "sire_id": 200
     },
     {
-      "id": "koala_185",
+      "id": "koala_183",
       "name": "つくし",
       "sex": "F",
       "generation": 5,
-      "x": 410,
+      "x": 530,
       "y": 1120,
       "born": "2020-09-02T15:00:00.000Z",
       "died": "",
@@ -2406,7 +2380,7 @@
       "sire_id": 82
     },
     {
-      "id": "koala_186",
+      "id": "koala_184",
       "name": "パピー",
       "sex": "F",
       "generation": 6,
@@ -2419,7 +2393,7 @@
       "sire_id": 197
     },
     {
-      "id": "koala_187",
+      "id": "koala_185",
       "name": "きらら",
       "sex": "F",
       "generation": 6,
@@ -2432,7 +2406,7 @@
       "sire_id": 47
     },
     {
-      "id": "koala_188",
+      "id": "koala_186",
       "name": "コウメ",
       "sex": "F",
       "generation": 6,
@@ -2445,7 +2419,7 @@
       "sire_id": 169
     },
     {
-      "id": "koala_189",
+      "id": "koala_187",
       "name": "ピノ",
       "sex": "M",
       "generation": 6,
@@ -2458,11 +2432,24 @@
       "sire_id": 45
     },
     {
-      "id": "koala_190",
-      "name": "ななみ",
+      "id": "koala_188",
+      "name": "ぼたん",
       "sex": "F",
       "generation": 6,
       "x": 530,
+      "y": 1200,
+      "born": "2017-05-11T15:00:00.000Z",
+      "died": "2024-12-12T15:00:00.000Z",
+      "alive": false,
+      "dam_id": 243,
+      "sire_id": 80
+    },
+    {
+      "id": "koala_189",
+      "name": "ななみ",
+      "sex": "F",
+      "generation": 6,
+      "x": 650,
       "y": 1200,
       "born": "2018-07-06T15:00:00.000Z",
       "died": "2025-12-10T15:00:00.000Z",
@@ -2471,11 +2458,11 @@
       "sire_id": 47
     },
     {
-      "id": "koala_191",
+      "id": "koala_190",
       "name": "だいふく",
       "sex": "M",
       "generation": 6,
-      "x": 650,
+      "x": 770,
       "y": 1200,
       "born": "2022-03-13T15:00:00.000Z",
       "died": "",
@@ -2484,16 +2471,29 @@
       "sire_id": 47
     },
     {
+      "id": "koala_191",
+      "name": "コタロウ（王子）",
+      "sex": "M",
+      "generation": 6,
+      "x": 890,
+      "y": 1200,
+      "born": "2015-09-24T15:00:00.000Z",
+      "died": "2022-07-30T15:00:00.000Z",
+      "alive": false,
+      "dam_id": 243,
+      "sire_id": 202
+    },
+    {
       "id": "koala_192",
       "name": "ウミ",
       "sex": "F",
       "generation": 6,
-      "x": 770,
+      "x": 1010,
       "y": 1200,
       "born": "2014-06-12T15:00:00.000Z",
       "died": "",
       "alive": true,
-      "dam_id": "#N/A",
+      "dam_id": 243,
       "sire_id": 202
     },
     {
@@ -2501,7 +2501,7 @@
       "name": "シン",
       "sex": "M",
       "generation": 6,
-      "x": 890,
+      "x": 1130,
       "y": 1200,
       "born": "1997-05-19T15:00:00.000Z",
       "died": "2007-04-09T15:00:00.000Z",
@@ -2514,8 +2514,8 @@
       "name": "シンジ",
       "sex": "M",
       "generation": 6,
-      "x": 1010,
-      "y": 1200,
+      "x": 50,
+      "y": 1320,
       "born": "1998-07-23T15:00:00.000Z",
       "died": "1999-08-01T15:00:00.000Z",
       "alive": false,
@@ -2527,8 +2527,8 @@
       "name": "ステップ",
       "sex": "F",
       "generation": 6,
-      "x": 1130,
-      "y": 1200,
+      "x": 170,
+      "y": 1320,
       "born": "2000-09-23T15:00:00.000Z",
       "died": "2002-03-14T15:00:00.000Z",
       "alive": false,
@@ -2540,7 +2540,7 @@
       "name": "オクト",
       "sex": "M",
       "generation": 6,
-      "x": 50,
+      "x": 290,
       "y": 1320,
       "born": "2002-10-21T15:00:00.000Z",
       "died": "2008-11-24T15:00:00.000Z",
@@ -2553,7 +2553,7 @@
       "name": "ジュリア",
       "sex": "F",
       "generation": 6,
-      "x": 170,
+      "x": 410,
       "y": 1320,
       "born": "2002-12-19T15:00:00.000Z",
       "died": "2014-10-09T15:00:00.000Z",
@@ -2566,7 +2566,7 @@
       "name": "ユウキ（平川）",
       "sex": "M",
       "generation": 6,
-      "x": 290,
+      "x": 530,
       "y": 1320,
       "born": "2010-09-06T15:00:00.000Z",
       "died": "2019-08-20T15:00:00.000Z",
@@ -2579,7 +2579,7 @@
       "name": "ココロ",
       "sex": "F",
       "generation": 6,
-      "x": 410,
+      "x": 650,
       "y": 1320,
       "born": "2011-09-25T15:00:00.000Z",
       "died": "2019-12-24T15:00:00.000Z",
@@ -2592,7 +2592,7 @@
       "name": "ししお",
       "sex": "M",
       "generation": 6,
-      "x": 530,
+      "x": 770,
       "y": 1320,
       "born": "2022-04-03T15:00:00.000Z",
       "died": "",
@@ -2605,7 +2605,7 @@
       "name": "タイヨウ",
       "sex": "M",
       "generation": 6,
-      "x": 650,
+      "x": 890,
       "y": 1320,
       "born": "2022-08-10T15:00:00.000Z",
       "died": "",
@@ -2628,7 +2628,7 @@
     },
     {
       "id": "koala_203",
-      "name": "コタロウ",
+      "name": "コタロウ（さいたま）",
       "sex": "M",
       "generation": 7,
       "x": 170,
@@ -2667,10 +2667,36 @@
     },
     {
       "id": "koala_206",
-      "name": "ワトル",
+      "name": "たんぽぽ",
       "sex": "F",
       "generation": 7,
       "x": 530,
+      "y": 1400,
+      "born": "2020-04-25T15:00:00.000Z",
+      "died": "",
+      "alive": true,
+      "dam_id": 70,
+      "sire_id": 6
+    },
+    {
+      "id": "koala_207",
+      "name": "ひなぎく",
+      "sex": "F",
+      "generation": 7,
+      "x": 650,
+      "y": 1400,
+      "born": "2021-12-14T15:00:00.000Z",
+      "died": "2025-07-01T15:00:00.000Z",
+      "alive": false,
+      "dam_id": 70,
+      "sire_id": 6
+    },
+    {
+      "id": "koala_208",
+      "name": "ワトル",
+      "sex": "F",
+      "generation": 7,
+      "x": 770,
       "y": 1400,
       "born": "2020-05-13T15:00:00.000Z",
       "died": "",
@@ -2679,11 +2705,11 @@
       "sire_id": 47
     },
     {
-      "id": "koala_207",
+      "id": "koala_209",
       "name": "おもち",
       "sex": "F",
       "generation": 7,
-      "x": 650,
+      "x": 890,
       "y": 1400,
       "born": "2022-03-20T15:00:00.000Z",
       "died": "",
@@ -2692,11 +2718,11 @@
       "sire_id": 82
     },
     {
-      "id": "koala_208",
+      "id": "koala_210",
       "name": "オウカ",
       "sex": "F",
       "generation": 7,
-      "x": 770,
+      "x": 1010,
       "y": 1400,
       "born": "2016-09-24T15:00:00.000Z",
       "died": "",
@@ -2705,11 +2731,11 @@
       "sire_id": 202
     },
     {
-      "id": "koala_209",
+      "id": "koala_211",
       "name": "エマ",
       "sex": "F",
       "generation": 7,
-      "x": 890,
+      "x": 1130,
       "y": 1400,
       "born": "2018-12-05T15:00:00.000Z",
       "died": "",
@@ -2718,12 +2744,12 @@
       "sire_id": 137
     },
     {
-      "id": "koala_210",
+      "id": "koala_212",
       "name": "ナギ",
       "sex": "F",
       "generation": 7,
-      "x": 1010,
-      "y": 1400,
+      "x": 50,
+      "y": 1520,
       "born": "2023-07-30T15:00:00.000Z",
       "died": "",
       "alive": true,
@@ -2731,12 +2757,12 @@
       "sire_id": 137
     },
     {
-      "id": "koala_211",
+      "id": "koala_213",
       "name": "ヒカリ",
       "sex": "F",
       "generation": 7,
-      "x": 1130,
-      "y": 1400,
+      "x": 170,
+      "y": 1520,
       "born": "2008-06-13T15:00:00.000Z",
       "died": "2011-03-20T15:00:00.000Z",
       "alive": false,
@@ -2744,11 +2770,11 @@
       "sire_id": 200
     },
     {
-      "id": "koala_212",
+      "id": "koala_214",
       "name": "ナナ（平川）",
       "sex": "F",
       "generation": 7,
-      "x": 50,
+      "x": 290,
       "y": 1520,
       "born": "2008-07-21T15:00:00.000Z",
       "died": "2011-02-24T15:00:00.000Z",
@@ -2757,11 +2783,11 @@
       "sire_id": 195
     },
     {
-      "id": "koala_213",
+      "id": "koala_215",
       "name": "ルリア",
       "sex": "F",
       "generation": 7,
-      "x": 170,
+      "x": 410,
       "y": 1520,
       "born": "2011-08-03T15:00:00.000Z",
       "died": "2015-11-19T15:00:00.000Z",
@@ -2770,11 +2796,11 @@
       "sire_id": 202
     },
     {
-      "id": "koala_214",
+      "id": "koala_216",
       "name": "リオ",
       "sex": "F",
       "generation": 7,
-      "x": 290,
+      "x": 530,
       "y": 1520,
       "born": "2015-12-09T15:00:00.000Z",
       "died": "",
@@ -2783,11 +2809,11 @@
       "sire_id": 206
     },
     {
-      "id": "koala_215",
+      "id": "koala_217",
       "name": "イト",
       "sex": "F",
       "generation": 7,
-      "x": 410,
+      "x": 650,
       "y": 1520,
       "born": "2017-05-03T15:00:00.000Z",
       "died": "2023-07-21T15:00:00.000Z",
@@ -2796,11 +2822,11 @@
       "sire_id": 206
     },
     {
-      "id": "koala_216",
+      "id": "koala_218",
       "name": "セイ",
       "sex": "M",
       "generation": 7,
-      "x": 530,
+      "x": 770,
       "y": 1520,
       "born": "2018-06-25T15:00:00.000Z",
       "died": "2020-03-20T15:00:00.000Z",
@@ -2809,11 +2835,11 @@
       "sire_id": 211
     },
     {
-      "id": "koala_217",
+      "id": "koala_219",
       "name": "コスモ",
       "sex": "F",
       "generation": 7,
-      "x": 650,
+      "x": 890,
       "y": 1520,
       "born": "2025-05-14T15:00:00.000Z",
       "died": "",
@@ -2822,7 +2848,7 @@
       "sire_id": 230
     },
     {
-      "id": "koala_218",
+      "id": "koala_220",
       "name": "あずま",
       "sex": "F",
       "generation": 8,
@@ -2835,7 +2861,7 @@
       "sire_id": 69
     },
     {
-      "id": "koala_219",
+      "id": "koala_221",
       "name": "きんとき",
       "sex": "M",
       "generation": 8,
@@ -2848,7 +2874,7 @@
       "sire_id": 69
     },
     {
-      "id": "koala_220",
+      "id": "koala_222",
       "name": "ニーナ",
       "sex": "F",
       "generation": 8,
@@ -2861,7 +2887,7 @@
       "sire_id": 46
     },
     {
-      "id": "koala_221",
+      "id": "koala_223",
       "name": "シャイン",
       "sex": "M",
       "generation": 8,
@@ -2874,7 +2900,7 @@
       "sire_id": 69
     },
     {
-      "id": "koala_222",
+      "id": "koala_224",
       "name": "リリー",
       "sex": "F",
       "generation": 8,
@@ -2887,7 +2913,7 @@
       "sire_id": 69
     },
     {
-      "id": "koala_223",
+      "id": "koala_225",
       "name": "コハル",
       "sex": "F",
       "generation": 8,
@@ -2900,7 +2926,7 @@
       "sire_id": 69
     },
     {
-      "id": "koala_224",
+      "id": "koala_226",
       "name": "ビー",
       "sex": "M",
       "generation": 8,
@@ -2913,7 +2939,7 @@
       "sire_id": 69
     },
     {
-      "id": "koala_225",
+      "id": "koala_227",
       "name": "ふく",
       "sex": "F",
       "generation": 8,
@@ -2926,7 +2952,7 @@
       "sire_id": 46
     },
     {
-      "id": "koala_226",
+      "id": "koala_228",
       "name": "ミラ",
       "sex": "F",
       "generation": 8,
@@ -2939,7 +2965,7 @@
       "sire_id": 46
     },
     {
-      "id": "koala_227",
+      "id": "koala_229",
       "name": "スピカ",
       "sex": "F",
       "generation": 8,
@@ -2952,7 +2978,7 @@
       "sire_id": 58
     },
     {
-      "id": "koala_228",
+      "id": "koala_230",
       "name": "ポポロ",
       "sex": "M",
       "generation": 8,
@@ -2965,7 +2991,7 @@
       "sire_id": 69
     },
     {
-      "id": "koala_229",
+      "id": "koala_231",
       "name": "ミルキィ",
       "sex": "F",
       "generation": 8,
@@ -2978,7 +3004,7 @@
       "sire_id": 113
     },
     {
-      "id": "koala_230",
+      "id": "koala_232",
       "name": "ハナ",
       "sex": "F",
       "generation": 8,
@@ -2991,7 +3017,7 @@
       "sire_id": 137
     },
     {
-      "id": "koala_231",
+      "id": "koala_233",
       "name": "イツキ",
       "sex": "M",
       "generation": 8,
@@ -3004,7 +3030,7 @@
       "sire_id": 211
     },
     {
-      "id": "koala_232",
+      "id": "koala_234",
       "name": "オウキ",
       "sex": "M",
       "generation": 8,
@@ -3017,7 +3043,7 @@
       "sire_id": 131
     },
     {
-      "id": "koala_233",
+      "id": "koala_235",
       "name": "バンリ",
       "sex": "M",
       "generation": 8,
@@ -3030,7 +3056,7 @@
       "sire_id": 211
     },
     {
-      "id": "koala_234",
+      "id": "koala_236",
       "name": "ライト",
       "sex": "M",
       "generation": 8,
@@ -3043,7 +3069,7 @@
       "sire_id": 211
     },
     {
-      "id": "koala_235",
+      "id": "koala_237",
       "name": "ニシチ",
       "sex": "M",
       "generation": 9,
@@ -3053,10 +3079,10 @@
       "died": "2021-03-30T15:00:00.000Z",
       "alive": false,
       "dam_id": 55,
-      "sire_id": 46
+      "sire_id": 242
     },
     {
-      "id": "koala_236",
+      "id": "koala_238",
       "name": "さち",
       "sex": "F",
       "generation": 9,
@@ -3069,7 +3095,7 @@
       "sire_id": 62
     },
     {
-      "id": "koala_237",
+      "id": "koala_239",
       "name": "ヒヨリ",
       "sex": "F",
       "generation": 9,
@@ -3082,7 +3108,7 @@
       "sire_id": 62
     },
     {
-      "id": "koala_238",
+      "id": "koala_240",
       "name": "ポル",
       "sex": "F",
       "generation": 9,
@@ -3095,7 +3121,7 @@
       "sire_id": 62
     },
     {
-      "id": "koala_239",
+      "id": "koala_241",
       "name": "ハリー",
       "sex": "M",
       "generation": 9,
@@ -3108,7 +3134,7 @@
       "sire_id": 6
     },
     {
-      "id": "koala_240",
+      "id": "koala_242",
       "name": "シャイニー",
       "sex": "F",
       "generation": 9,
@@ -3121,7 +3147,7 @@
       "sire_id": 56
     },
     {
-      "id": "koala_241",
+      "id": "koala_243",
       "name": "スミレ",
       "sex": "F",
       "generation": 9,
@@ -3136,33 +3162,33 @@
   ],
   "edges": [
     {
-      "parent": "koala_124",
-      "child": "koala_146",
+      "parent": "koala_123",
+      "child": "koala_145",
       "parent_name": "ミリー"
     },
     {
       "parent": "koala_10",
-      "child": "koala_146",
+      "child": "koala_145",
       "parent_name": "モモジ"
     },
     {
-      "parent": "koala_124",
-      "child": "koala_147",
+      "parent": "koala_123",
+      "child": "koala_146",
       "parent_name": "ミリー"
     },
     {
       "parent": "koala_11",
-      "child": "koala_147",
+      "child": "koala_146",
       "parent_name": "ライタ"
     },
     {
-      "parent": "koala_147",
-      "child": "koala_186",
+      "parent": "koala_146",
+      "child": "koala_184",
       "parent_name": "ミライ"
     },
     {
-      "parent": "koala_183",
-      "child": "koala_186",
+      "parent": "koala_181",
+      "child": "koala_184",
       "parent_name": "ピックス"
     },
     {
@@ -3177,52 +3203,52 @@
     },
     {
       "parent": "koala_17",
-      "child": "koala_148",
+      "child": "koala_147",
       "parent_name": "ホリー"
     },
     {
       "parent": "koala_119",
-      "child": "koala_148",
+      "child": "koala_147",
       "parent_name": "マックス"
     },
     {
       "parent": "koala_16",
-      "child": "koala_187",
+      "child": "koala_185",
       "parent_name": "ティリー"
     },
     {
-      "parent": "koala_172",
-      "child": "koala_187",
+      "parent": "koala_169",
+      "child": "koala_185",
       "parent_name": "タイチ"
     },
     {
-      "parent": "koala_220",
-      "child": "koala_235",
+      "parent": "koala_222",
+      "child": "koala_237",
       "parent_name": "ニーナ"
     },
     {
-      "parent": "koala_203",
-      "child": "koala_235",
-      "parent_name": "コタロウ"
+      "parent": "koala_191",
+      "child": "koala_237",
+      "parent_name": "コタロウ（王子）"
     },
     {
-      "parent": "koala_148",
-      "child": "koala_218",
+      "parent": "koala_147",
+      "child": "koala_220",
       "parent_name": "こまち"
     },
     {
       "parent": "koala_205",
-      "child": "koala_218",
+      "child": "koala_220",
       "parent_name": "コロン"
     },
     {
-      "parent": "koala_187",
-      "child": "koala_219",
+      "parent": "koala_185",
+      "child": "koala_221",
       "parent_name": "きらら"
     },
     {
       "parent": "koala_205",
-      "child": "koala_219",
+      "child": "koala_221",
       "parent_name": "コロン"
     },
     {
@@ -3391,23 +3417,23 @@
       "parent_name": "リック"
     },
     {
-      "parent": "koala_123",
-      "child": "koala_149",
+      "parent": "koala_122",
+      "child": "koala_148",
       "parent_name": "ナナ（東山）"
     },
     {
       "parent": "koala_31",
-      "child": "koala_149",
+      "child": "koala_148",
       "parent_name": "フォレスト"
     },
     {
       "parent": "koala_118",
-      "child": "koala_150",
+      "child": "koala_149",
       "parent_name": "メイ"
     },
     {
       "parent": "koala_10",
-      "child": "koala_150",
+      "child": "koala_149",
       "parent_name": "モモジ"
     },
     {
@@ -3422,12 +3448,12 @@
     },
     {
       "parent": "koala_118",
-      "child": "koala_188",
+      "child": "koala_186",
       "parent_name": "メイ"
     },
     {
-      "parent": "koala_176",
-      "child": "koala_188",
+      "parent": "koala_174",
+      "child": "koala_186",
       "parent_name": "コウ"
     },
     {
@@ -3442,57 +3468,57 @@
     },
     {
       "parent": "koala_118",
-      "child": "koala_151",
+      "child": "koala_150",
       "parent_name": "メイ"
     },
     {
       "parent": "koala_11",
-      "child": "koala_151",
+      "child": "koala_150",
       "parent_name": "ライタ"
     },
     {
-      "parent": "koala_188",
+      "parent": "koala_186",
       "child": "koala_202",
       "parent_name": "コウメ"
     },
     {
-      "parent": "koala_149",
+      "parent": "koala_148",
       "child": "koala_202",
       "parent_name": "ティムタム"
     },
     {
-      "parent": "koala_188",
+      "parent": "koala_186",
       "child": "koala_203",
       "parent_name": "コウメ"
     },
     {
-      "parent": "koala_149",
+      "parent": "koala_148",
       "child": "koala_203",
       "parent_name": "ティムタム"
     },
     {
       "parent": "koala_120",
-      "child": "koala_172",
+      "child": "koala_169",
       "parent_name": "ライチ"
     },
     {
-      "parent": "koala_149",
-      "child": "koala_172",
+      "parent": "koala_148",
+      "child": "koala_169",
       "parent_name": "ティムタム"
     },
     {
       "parent": "koala_120",
-      "child": "koala_173",
+      "child": "koala_170",
       "parent_name": "ライチ"
     },
     {
-      "parent": "koala_149",
-      "child": "koala_173",
+      "parent": "koala_148",
+      "child": "koala_170",
       "parent_name": "ティムタム"
     },
     {
       "parent": "koala_120",
-      "child": "koala_152",
+      "child": "koala_151",
       "parent_name": "ライチ"
     },
     {
@@ -3516,43 +3542,43 @@
       "parent_name": "ボウ"
     },
     {
-      "parent": "koala_173",
-      "child": "koala_189",
+      "parent": "koala_170",
+      "child": "koala_187",
       "parent_name": "エミ"
     },
     {
       "parent": "koala_12",
-      "child": "koala_189",
+      "child": "koala_187",
       "parent_name": "ボウ"
     },
     {
       "parent": "koala_13",
-      "child": "koala_220",
+      "child": "koala_222",
       "parent_name": "ドリー"
     },
     {
       "parent": "koala_203",
-      "child": "koala_220",
-      "parent_name": "コタロウ"
+      "child": "koala_222",
+      "parent_name": "コタロウ（さいたま）"
     },
     {
       "parent": "koala_61",
-      "child": "koala_221",
+      "child": "koala_223",
       "parent_name": "クイン"
     },
     {
       "parent": "koala_205",
-      "child": "koala_221",
+      "child": "koala_223",
       "parent_name": "コロン"
     },
     {
       "parent": "koala_13",
-      "child": "koala_222",
+      "child": "koala_224",
       "parent_name": "ドリー"
     },
     {
       "parent": "koala_205",
-      "child": "koala_222",
+      "child": "koala_224",
       "parent_name": "コロン"
     },
     {
@@ -3561,39 +3587,39 @@
       "parent_name": "ジンベラン"
     },
     {
-      "parent": "koala_189",
+      "parent": "koala_187",
       "child": "koala_204",
       "parent_name": "ピノ"
     },
     {
       "parent": "koala_61",
-      "child": "koala_223",
+      "child": "koala_225",
       "parent_name": "クイン"
     },
     {
       "parent": "koala_205",
-      "child": "koala_223",
+      "child": "koala_225",
       "parent_name": "コロン"
     },
     {
-      "parent": "koala_152",
-      "child": "koala_224",
+      "parent": "koala_151",
+      "child": "koala_226",
       "parent_name": "ハニー"
     },
     {
       "parent": "koala_205",
-      "child": "koala_224",
+      "child": "koala_226",
       "parent_name": "コロン"
     },
     {
       "parent": "koala_13",
-      "child": "koala_225",
+      "child": "koala_227",
       "parent_name": "ドリー"
     },
     {
       "parent": "koala_203",
-      "child": "koala_225",
-      "parent_name": "コタロウ"
+      "child": "koala_227",
+      "parent_name": "コタロウ（さいたま）"
     },
     {
       "parent": "koala_78",
@@ -3607,22 +3633,22 @@
     },
     {
       "parent": "koala_14",
-      "child": "koala_226",
+      "child": "koala_228",
       "parent_name": "ジンベラン"
     },
     {
       "parent": "koala_203",
-      "child": "koala_226",
-      "parent_name": "コタロウ"
+      "child": "koala_228",
+      "parent_name": "コタロウ（さいたま）"
     },
     {
       "parent": "koala_61",
-      "child": "koala_227",
+      "child": "koala_229",
       "parent_name": "クイン"
     },
     {
       "parent": "koala_204",
-      "child": "koala_227",
+      "child": "koala_229",
       "parent_name": "ピリー"
     },
     {
@@ -3636,34 +3662,44 @@
       "parent_name": "アーチャー"
     },
     {
-      "parent": "koala_225",
-      "child": "koala_236",
+      "parent": "koala_227",
+      "child": "koala_238",
       "parent_name": "ふく"
     },
     {
       "parent": "koala_88",
-      "child": "koala_236",
+      "child": "koala_238",
       "parent_name": "ソラ"
     },
     {
-      "parent": "koala_223",
-      "child": "koala_237",
+      "parent": "koala_225",
+      "child": "koala_239",
       "parent_name": "コハル"
     },
     {
       "parent": "koala_88",
-      "child": "koala_237",
+      "child": "koala_239",
       "parent_name": "ソラ"
     },
     {
-      "parent": "koala_226",
-      "child": "koala_238",
+      "parent": "koala_228",
+      "child": "koala_240",
       "parent_name": "ミラ"
     },
     {
       "parent": "koala_88",
-      "child": "koala_238",
+      "child": "koala_240",
       "parent_name": "ソラ"
+    },
+    {
+      "parent": "koala_145",
+      "child": "koala_171",
+      "parent_name": "モミジ"
+    },
+    {
+      "parent": "koala_117",
+      "child": "koala_171",
+      "parent_name": "パイン"
     },
     {
       "parent": "koala_199",
@@ -3676,48 +3712,53 @@
       "parent_name": "フランク"
     },
     {
+      "parent": "koala_171",
+      "child": "koala_188",
+      "parent_name": "ウメ"
+    },
+    {
       "parent": "koala_90",
-      "child": "koala_122",
+      "child": "koala_188",
       "parent_name": "アーティー"
     },
     {
-      "parent": "koala_122",
-      "child": "koala_153",
+      "parent": "koala_188",
+      "child": "koala_206",
       "parent_name": "ぼたん"
     },
     {
       "parent": "koala_51",
-      "child": "koala_153",
+      "child": "koala_206",
       "parent_name": "チャーリー"
     },
     {
-      "parent": "koala_122",
-      "child": "koala_154",
+      "parent": "koala_188",
+      "child": "koala_207",
       "parent_name": "ぼたん"
     },
     {
       "parent": "koala_51",
-      "child": "koala_154",
+      "child": "koala_207",
       "parent_name": "チャーリー"
     },
     {
-      "parent": "koala_223",
-      "child": "koala_239",
+      "parent": "koala_225",
+      "child": "koala_241",
       "parent_name": "コハル"
     },
     {
       "parent": "koala_51",
-      "child": "koala_239",
+      "child": "koala_241",
       "parent_name": "チャーリー"
     },
     {
-      "parent": "koala_153",
-      "child": "koala_228",
+      "parent": "koala_206",
+      "child": "koala_230",
       "parent_name": "たんぽぽ"
     },
     {
       "parent": "koala_205",
-      "child": "koala_228",
+      "child": "koala_230",
       "parent_name": "コロン"
     },
     {
@@ -3727,12 +3768,12 @@
     },
     {
       "parent": "koala_92",
-      "child": "koala_123",
+      "child": "koala_122",
       "parent_name": "カルゴア"
     },
     {
       "parent": "koala_63",
-      "child": "koala_123",
+      "child": "koala_122",
       "parent_name": "ラム"
     },
     {
@@ -3767,62 +3808,62 @@
     },
     {
       "parent": "koala_16",
-      "child": "koala_155",
+      "child": "koala_152",
       "parent_name": "ティリー"
     },
     {
       "parent": "koala_119",
-      "child": "koala_155",
+      "child": "koala_152",
       "parent_name": "マックス"
     },
     {
       "parent": "koala_17",
-      "child": "koala_190",
+      "child": "koala_189",
       "parent_name": "ホリー"
     },
     {
-      "parent": "koala_172",
+      "parent": "koala_169",
+      "child": "koala_189",
+      "parent_name": "タイチ"
+    },
+    {
+      "parent": "koala_189",
+      "child": "koala_208",
+      "parent_name": "ななみ"
+    },
+    {
+      "parent": "koala_169",
+      "child": "koala_208",
+      "parent_name": "タイチ"
+    },
+    {
+      "parent": "koala_152",
+      "child": "koala_190",
+      "parent_name": "りん"
+    },
+    {
+      "parent": "koala_169",
       "child": "koala_190",
       "parent_name": "タイチ"
     },
     {
-      "parent": "koala_190",
-      "child": "koala_206",
-      "parent_name": "ななみ"
-    },
-    {
-      "parent": "koala_172",
-      "child": "koala_206",
-      "parent_name": "タイチ"
-    },
-    {
-      "parent": "koala_155",
-      "child": "koala_191",
-      "parent_name": "りん"
-    },
-    {
-      "parent": "koala_172",
-      "child": "koala_191",
-      "parent_name": "タイチ"
-    },
-    {
-      "parent": "koala_190",
-      "child": "koala_207",
+      "parent": "koala_189",
+      "child": "koala_209",
       "parent_name": "ななみ"
     },
     {
       "parent": "koala_91",
-      "child": "koala_207",
+      "child": "koala_209",
       "parent_name": "イシン"
     },
     {
-      "parent": "koala_155",
-      "child": "koala_174",
+      "parent": "koala_152",
+      "child": "koala_172",
       "parent_name": "りん"
     },
     {
       "parent": "koala_91",
-      "child": "koala_174",
+      "child": "koala_172",
       "parent_name": "イシン"
     },
     {
@@ -3892,12 +3933,12 @@
     },
     {
       "parent": "koala_92",
-      "child": "koala_124",
+      "child": "koala_123",
       "parent_name": "カルゴア"
     },
     {
       "parent": "koala_63",
-      "child": "koala_124",
+      "child": "koala_123",
       "parent_name": "ラム"
     },
     {
@@ -3912,12 +3953,12 @@
     },
     {
       "parent": "koala_67",
-      "child": "koala_125",
+      "child": "koala_124",
       "parent_name": "シドニー"
     },
     {
       "parent": "koala_93",
-      "child": "koala_125",
+      "child": "koala_124",
       "parent_name": "マックレー"
     },
     {
@@ -3931,23 +3972,23 @@
       "parent_name": "ジョナサン"
     },
     {
-      "parent": "koala_123",
-      "child": "koala_156",
+      "parent": "koala_122",
+      "child": "koala_153",
       "parent_name": "ナナ（東山）"
     },
     {
       "parent": "koala_32",
-      "child": "koala_156",
+      "child": "koala_153",
       "parent_name": "ニポポ"
     },
     {
       "parent": "koala_92",
-      "child": "koala_126",
+      "child": "koala_125",
       "parent_name": "カルゴア"
     },
     {
       "parent": "koala_32",
-      "child": "koala_126",
+      "child": "koala_125",
       "parent_name": "ニポポ"
     },
     {
@@ -3982,97 +4023,107 @@
     },
     {
       "parent": "koala_96",
-      "child": "koala_127",
+      "child": "koala_126",
       "parent_name": "ミズキ"
     },
     {
       "parent": "koala_95",
-      "child": "koala_127",
+      "child": "koala_126",
       "parent_name": "クック"
     },
     {
       "parent": "koala_202",
-      "child": "koala_229",
+      "child": "koala_231",
       "parent_name": "ココ"
     },
     {
       "parent": "koala_32",
-      "child": "koala_229",
+      "child": "koala_231",
       "parent_name": "ニポポ"
     },
     {
       "parent": "koala_69",
-      "child": "koala_175",
+      "child": "koala_173",
       "parent_name": "ティアラ"
     },
     {
-      "parent": "koala_149",
-      "child": "koala_175",
+      "parent": "koala_148",
+      "child": "koala_173",
       "parent_name": "ティムタム"
     },
     {
-      "parent": "koala_192",
-      "child": "koala_208",
-      "parent_name": "ウミ"
+      "parent": "koala_171",
+      "child": "koala_191",
+      "parent_name": "ウメ"
     },
     {
-      "parent": "koala_184",
-      "child": "koala_208",
+      "parent": "koala_182",
+      "child": "koala_191",
       "parent_name": "ウルル"
     },
     {
       "parent": "koala_192",
-      "child": "koala_209",
+      "child": "koala_210",
       "parent_name": "ウミ"
     },
     {
-      "parent": "koala_129",
-      "child": "koala_209",
+      "parent": "koala_182",
+      "child": "koala_210",
+      "parent_name": "ウルル"
+    },
+    {
+      "parent": "koala_192",
+      "child": "koala_211",
+      "parent_name": "ウミ"
+    },
+    {
+      "parent": "koala_128",
+      "child": "koala_211",
       "parent_name": "ピーター"
     },
     {
-      "parent": "koala_208",
-      "child": "koala_230",
-      "parent_name": "オウカ"
-    },
-    {
-      "parent": "koala_129",
-      "child": "koala_230",
-      "parent_name": "ピーター"
-    },
-    {
-      "parent": "koala_215",
-      "child": "koala_231",
-      "parent_name": "イト"
-    },
-    {
-      "parent": "koala_48",
-      "child": "koala_231",
-      "parent_name": "バンブラ"
-    },
-    {
-      "parent": "koala_17",
-      "child": "koala_128",
-      "parent_name": "ホリー"
-    },
-    {
-      "parent": "koala_91",
-      "child": "koala_128",
-      "parent_name": "イシン"
-    },
-    {
-      "parent": "koala_221",
-      "child": "koala_240",
-      "parent_name": "シャイン"
-    },
-    {
-      "parent": "koala_208",
+      "parent": "koala_210",
       "child": "koala_232",
       "parent_name": "オウカ"
     },
     {
       "parent": "koala_128",
       "child": "koala_232",
+      "parent_name": "ピーター"
+    },
+    {
+      "parent": "koala_217",
+      "child": "koala_233",
+      "parent_name": "イト"
+    },
+    {
+      "parent": "koala_48",
+      "child": "koala_233",
+      "parent_name": "バンブラ"
+    },
+    {
+      "parent": "koala_17",
+      "child": "koala_127",
+      "parent_name": "ホリー"
+    },
+    {
+      "parent": "koala_91",
+      "child": "koala_127",
+      "parent_name": "イシン"
+    },
+    {
+      "parent": "koala_223",
+      "child": "koala_242",
+      "parent_name": "シャイン"
+    },
+    {
+      "parent": "koala_210",
+      "child": "koala_234",
+      "parent_name": "オウカ"
+    },
+    {
+      "parent": "koala_127",
+      "child": "koala_234",
       "parent_name": "いぶき"
     },
     {
@@ -4081,18 +4132,23 @@
       "parent_name": "ユメ"
     },
     {
-      "parent": "koala_184",
+      "parent": "koala_171",
+      "child": "koala_192",
+      "parent_name": "ウメ"
+    },
+    {
+      "parent": "koala_182",
       "child": "koala_192",
       "parent_name": "ウルル"
     },
     {
       "parent": "koala_16",
-      "child": "koala_129",
+      "child": "koala_128",
       "parent_name": "ティリー"
     },
     {
       "parent": "koala_89",
-      "child": "koala_129",
+      "child": "koala_128",
       "parent_name": "ピース（東山）"
     },
     {
@@ -4107,12 +4163,12 @@
     },
     {
       "parent": "koala_192",
-      "child": "koala_210",
+      "child": "koala_212",
       "parent_name": "ウミ"
     },
     {
-      "parent": "koala_129",
-      "child": "koala_210",
+      "parent": "koala_128",
+      "child": "koala_212",
       "parent_name": "ピーター"
     },
     {
@@ -4267,27 +4323,27 @@
     },
     {
       "parent": "koala_101",
-      "child": "koala_130",
+      "child": "koala_129",
       "parent_name": "イブ"
     },
     {
       "parent": "koala_74",
-      "child": "koala_130",
+      "child": "koala_129",
       "parent_name": "ユウ（平川）"
     },
     {
       "parent": "koala_119",
-      "child": "koala_157",
+      "child": "koala_154",
       "parent_name": "マックス"
     },
     {
       "parent": "koala_103",
-      "child": "koala_131",
+      "child": "koala_130",
       "parent_name": "ラブリー"
     },
     {
       "parent": "koala_74",
-      "child": "koala_131",
+      "child": "koala_130",
       "parent_name": "ユウ（平川）"
     },
     {
@@ -4312,62 +4368,62 @@
     },
     {
       "parent": "koala_105",
-      "child": "koala_132",
+      "child": "koala_131",
       "parent_name": "ジュン"
     },
     {
       "parent": "koala_104",
-      "child": "koala_132",
+      "child": "koala_131",
       "parent_name": "ショウ"
     },
     {
       "parent": "koala_77",
-      "child": "koala_133",
+      "child": "koala_132",
       "parent_name": "ピア"
     },
     {
       "parent": "koala_100",
-      "child": "koala_133",
+      "child": "koala_132",
       "parent_name": "ラッキー"
     },
     {
-      "parent": "koala_130",
-      "child": "koala_176",
+      "parent": "koala_129",
+      "child": "koala_174",
       "parent_name": "サツキ"
     },
     {
-      "parent": "koala_157",
-      "child": "koala_176",
+      "parent": "koala_154",
+      "child": "koala_174",
       "parent_name": "ジェックス"
     },
     {
       "parent": "koala_101",
-      "child": "koala_134",
+      "child": "koala_133",
       "parent_name": "イブ"
     },
     {
       "parent": "koala_59",
-      "child": "koala_134",
+      "child": "koala_133",
       "parent_name": "ユウ"
     },
     {
-      "parent": "koala_131",
-      "child": "koala_177",
+      "parent": "koala_130",
+      "child": "koala_175",
       "parent_name": "ユリ"
     },
     {
-      "parent": "koala_157",
-      "child": "koala_177",
+      "parent": "koala_154",
+      "child": "koala_175",
       "parent_name": "ジェックス"
     },
     {
       "parent": "koala_103",
-      "child": "koala_135",
+      "child": "koala_134",
       "parent_name": "ラブリー"
     },
     {
       "parent": "koala_74",
-      "child": "koala_135",
+      "child": "koala_134",
       "parent_name": "ユウ（平川）"
     },
     {
@@ -4381,73 +4437,73 @@
       "parent_name": "ノビノビ"
     },
     {
-      "parent": "koala_130",
-      "child": "koala_158",
+      "parent": "koala_129",
+      "child": "koala_155",
       "parent_name": "サツキ"
     },
     {
       "parent": "koala_72",
-      "child": "koala_158",
+      "child": "koala_155",
       "parent_name": "ノビノビ"
     },
     {
       "parent": "koala_106",
-      "child": "koala_178",
+      "child": "koala_176",
       "parent_name": "ユミ"
     },
     {
-      "parent": "koala_157",
-      "child": "koala_178",
+      "parent": "koala_154",
+      "child": "koala_176",
       "parent_name": "ジェックス"
     },
     {
       "parent": "koala_105",
-      "child": "koala_136",
+      "child": "koala_135",
       "parent_name": "ジュン"
     },
     {
       "parent": "koala_100",
-      "child": "koala_136",
+      "child": "koala_135",
       "parent_name": "ラッキー"
     },
     {
       "parent": "koala_70",
-      "child": "koala_137",
+      "child": "koala_136",
       "parent_name": "アスカ"
     },
     {
       "parent": "koala_100",
-      "child": "koala_137",
+      "child": "koala_136",
       "parent_name": "ラッキー"
     },
     {
-      "parent": "koala_132",
-      "child": "koala_159",
+      "parent": "koala_131",
+      "child": "koala_156",
       "parent_name": "カンナ"
     },
     {
-      "parent": "koala_133",
-      "child": "koala_159",
+      "parent": "koala_132",
+      "child": "koala_156",
       "parent_name": "ケン"
     },
     {
       "parent": "koala_107",
-      "child": "koala_179",
+      "child": "koala_177",
       "parent_name": "ピコ"
     },
     {
-      "parent": "koala_157",
-      "child": "koala_179",
+      "parent": "koala_154",
+      "child": "koala_177",
       "parent_name": "ジェックス"
     },
     {
-      "parent": "koala_130",
-      "child": "koala_160",
+      "parent": "koala_129",
+      "child": "koala_157",
       "parent_name": "サツキ"
     },
     {
       "parent": "koala_72",
-      "child": "koala_160",
+      "child": "koala_157",
       "parent_name": "ノビノビ"
     },
     {
@@ -4456,58 +4512,58 @@
       "parent_name": "ピア"
     },
     {
-      "parent": "koala_176",
+      "parent": "koala_174",
       "child": "koala_193",
       "parent_name": "コウ"
     },
     {
-      "parent": "koala_131",
-      "child": "koala_161",
+      "parent": "koala_130",
+      "child": "koala_158",
       "parent_name": "ユリ"
     },
     {
       "parent": "koala_72",
-      "child": "koala_161",
+      "child": "koala_158",
       "parent_name": "ノビノビ"
     },
     {
-      "parent": "koala_134",
-      "child": "koala_162",
+      "parent": "koala_133",
+      "child": "koala_159",
       "parent_name": "アキ"
     },
     {
       "parent": "koala_44",
-      "child": "koala_162",
+      "child": "koala_159",
       "parent_name": "フウタ"
     },
     {
       "parent": "koala_105",
-      "child": "koala_138",
+      "child": "koala_137",
       "parent_name": "ジュン"
     },
     {
       "parent": "koala_100",
-      "child": "koala_138",
+      "child": "koala_137",
       "parent_name": "ラッキー"
     },
     {
-      "parent": "koala_130",
-      "child": "koala_163",
+      "parent": "koala_129",
+      "child": "koala_160",
       "parent_name": "サツキ"
     },
     {
       "parent": "koala_44",
-      "child": "koala_163",
+      "child": "koala_160",
       "parent_name": "フウタ"
     },
     {
-      "parent": "koala_134",
-      "child": "koala_164",
+      "parent": "koala_133",
+      "child": "koala_161",
       "parent_name": "アキ"
     },
     {
       "parent": "koala_44",
-      "child": "koala_164",
+      "child": "koala_161",
       "parent_name": "フウタ"
     },
     {
@@ -4516,58 +4572,58 @@
       "parent_name": "ピア"
     },
     {
-      "parent": "koala_176",
+      "parent": "koala_174",
       "child": "koala_194",
       "parent_name": "コウ"
     },
     {
       "parent": "koala_107",
-      "child": "koala_139",
+      "child": "koala_138",
       "parent_name": "ピコ"
     },
     {
       "parent": "koala_44",
-      "child": "koala_139",
+      "child": "koala_138",
       "parent_name": "フウタ"
     },
     {
-      "parent": "koala_131",
-      "child": "koala_180",
+      "parent": "koala_130",
+      "child": "koala_178",
       "parent_name": "ユリ"
     },
     {
-      "parent": "koala_157",
-      "child": "koala_180",
+      "parent": "koala_154",
+      "child": "koala_178",
       "parent_name": "ジェックス"
     },
     {
-      "parent": "koala_161",
-      "child": "koala_181",
+      "parent": "koala_158",
+      "child": "koala_179",
       "parent_name": "カオリ（平川）"
     },
     {
       "parent": "koala_34",
-      "child": "koala_181",
+      "child": "koala_179",
       "parent_name": "ビナリー"
     },
     {
       "parent": "koala_101",
-      "child": "koala_165",
+      "child": "koala_162",
       "parent_name": "イブ"
     },
     {
-      "parent": "koala_133",
-      "child": "koala_165",
+      "parent": "koala_132",
+      "child": "koala_162",
       "parent_name": "ケン"
     },
     {
-      "parent": "koala_134",
-      "child": "koala_166",
+      "parent": "koala_133",
+      "child": "koala_163",
       "parent_name": "アキ"
     },
     {
-      "parent": "koala_133",
-      "child": "koala_166",
+      "parent": "koala_132",
+      "child": "koala_163",
       "parent_name": "ケン"
     },
     {
@@ -4576,18 +4632,18 @@
       "parent_name": "ピア"
     },
     {
-      "parent": "koala_177",
+      "parent": "koala_175",
       "child": "koala_195",
       "parent_name": "ブン"
     },
     {
       "parent": "koala_107",
-      "child": "koala_182",
+      "child": "koala_180",
       "parent_name": "ピコ"
     },
     {
-      "parent": "koala_157",
-      "child": "koala_182",
+      "parent": "koala_154",
+      "child": "koala_180",
       "parent_name": "ジェックス"
     },
     {
@@ -4596,127 +4652,127 @@
       "parent_name": "ピア"
     },
     {
-      "parent": "koala_177",
+      "parent": "koala_175",
       "child": "koala_196",
       "parent_name": "ブン"
     },
     {
-      "parent": "koala_138",
+      "parent": "koala_137",
       "child": "koala_197",
       "parent_name": "ジュリ"
     },
     {
-      "parent": "koala_177",
+      "parent": "koala_175",
       "child": "koala_197",
       "parent_name": "ブン"
     },
     {
       "parent": "koala_107",
-      "child": "koala_183",
+      "child": "koala_181",
       "parent_name": "ピコ"
     },
     {
-      "parent": "koala_157",
-      "child": "koala_183",
+      "parent": "koala_154",
+      "child": "koala_181",
       "parent_name": "ジェックス"
     },
     {
-      "parent": "koala_134",
-      "child": "koala_167",
+      "parent": "koala_133",
+      "child": "koala_164",
       "parent_name": "アキ"
     },
     {
-      "parent": "koala_133",
-      "child": "koala_167",
+      "parent": "koala_132",
+      "child": "koala_164",
       "parent_name": "ケン"
     },
     {
-      "parent": "koala_138",
-      "child": "koala_168",
+      "parent": "koala_137",
+      "child": "koala_165",
       "parent_name": "ジュリ"
     },
     {
       "parent": "koala_86",
-      "child": "koala_168",
+      "child": "koala_165",
       "parent_name": "ココア"
     },
     {
-      "parent": "koala_123",
-      "child": "koala_169",
+      "parent": "koala_122",
+      "child": "koala_166",
       "parent_name": "ナナ（東山）"
     },
     {
       "parent": "koala_31",
-      "child": "koala_169",
+      "child": "koala_166",
       "parent_name": "フォレスト"
     },
     {
       "parent": "koala_87",
-      "child": "koala_140",
+      "child": "koala_139",
       "parent_name": "ヤヨイ"
     },
     {
       "parent": "koala_9",
-      "child": "koala_140",
+      "child": "koala_139",
       "parent_name": "リック"
     },
     {
       "parent": "koala_69",
-      "child": "koala_184",
+      "child": "koala_182",
       "parent_name": "ティアラ"
     },
     {
-      "parent": "koala_169",
-      "child": "koala_184",
+      "parent": "koala_166",
+      "child": "koala_182",
       "parent_name": "ウッドランド"
     },
     {
       "parent": "koala_197",
-      "child": "koala_211",
+      "child": "koala_213",
       "parent_name": "ジュリア"
     },
     {
-      "parent": "koala_169",
-      "child": "koala_211",
+      "parent": "koala_166",
+      "child": "koala_213",
       "parent_name": "ウッドランド"
     },
     {
-      "parent": "koala_167",
-      "child": "koala_212",
+      "parent": "koala_164",
+      "child": "koala_214",
       "parent_name": "アン"
     },
     {
       "parent": "koala_196",
-      "child": "koala_212",
+      "child": "koala_214",
       "parent_name": "オクト"
     },
     {
-      "parent": "koala_167",
+      "parent": "koala_164",
       "child": "koala_198",
       "parent_name": "アン"
     },
     {
-      "parent": "koala_184",
+      "parent": "koala_182",
       "child": "koala_198",
       "parent_name": "ウルル"
     },
     {
       "parent": "koala_197",
-      "child": "koala_213",
+      "child": "koala_215",
       "parent_name": "ジュリア"
     },
     {
-      "parent": "koala_184",
-      "child": "koala_213",
+      "parent": "koala_182",
+      "child": "koala_215",
       "parent_name": "ウルル"
     },
     {
-      "parent": "koala_167",
+      "parent": "koala_164",
       "child": "koala_199",
       "parent_name": "アン"
     },
     {
-      "parent": "koala_184",
+      "parent": "koala_182",
       "child": "koala_199",
       "parent_name": "ウルル"
     },
@@ -4732,32 +4788,32 @@
     },
     {
       "parent": "koala_199",
-      "child": "koala_214",
+      "child": "koala_216",
       "parent_name": "ココロ"
     },
     {
       "parent": "koala_45",
-      "child": "koala_214",
+      "child": "koala_216",
       "parent_name": "ブンダ"
     },
     {
       "parent": "koala_199",
-      "child": "koala_215",
+      "child": "koala_217",
       "parent_name": "ココロ"
     },
     {
       "parent": "koala_45",
-      "child": "koala_215",
+      "child": "koala_217",
       "parent_name": "ブンダ"
     },
     {
-      "parent": "koala_214",
-      "child": "koala_233",
+      "parent": "koala_216",
+      "child": "koala_235",
       "parent_name": "リオ"
     },
     {
       "parent": "koala_48",
-      "child": "koala_233",
+      "child": "koala_235",
       "parent_name": "バンブラ"
     },
     {
@@ -4772,12 +4828,12 @@
     },
     {
       "parent": "koala_199",
-      "child": "koala_216",
+      "child": "koala_218",
       "parent_name": "ココロ"
     },
     {
       "parent": "koala_48",
-      "child": "koala_216",
+      "child": "koala_218",
       "parent_name": "バンブラ"
     },
     {
@@ -4812,52 +4868,52 @@
     },
     {
       "parent": "koala_16",
-      "child": "koala_141",
+      "child": "koala_140",
       "parent_name": "ティリー"
     },
     {
       "parent": "koala_91",
-      "child": "koala_141",
+      "child": "koala_140",
       "parent_name": "イシン"
     },
     {
-      "parent": "koala_155",
-      "child": "koala_185",
+      "parent": "koala_152",
+      "child": "koala_183",
       "parent_name": "りん"
     },
     {
       "parent": "koala_91",
-      "child": "koala_185",
+      "child": "koala_183",
       "parent_name": "イシン"
     },
     {
       "parent": "koala_111",
-      "child": "koala_142",
+      "child": "koala_141",
       "parent_name": "ヒマワリ"
     },
     {
       "parent": "koala_45",
-      "child": "koala_142",
+      "child": "koala_141",
       "parent_name": "ブンダ"
     },
     {
-      "parent": "koala_215",
-      "child": "koala_234",
+      "parent": "koala_217",
+      "child": "koala_236",
       "parent_name": "イト"
     },
     {
       "parent": "koala_48",
-      "child": "koala_234",
+      "child": "koala_236",
       "parent_name": "バンブラ"
     },
     {
       "parent": "koala_110",
-      "child": "koala_143",
+      "child": "koala_142",
       "parent_name": "ユイ"
     },
     {
       "parent": "koala_48",
-      "child": "koala_143",
+      "child": "koala_142",
       "parent_name": "バンブラ"
     },
     {
@@ -4886,17 +4942,17 @@
       "parent_name": "ホリー"
     },
     {
-      "parent": "koala_172",
+      "parent": "koala_169",
       "child": "koala_200",
       "parent_name": "タイチ"
     },
     {
-      "parent": "koala_141",
+      "parent": "koala_140",
       "child": "koala_201",
       "parent_name": "インディコ"
     },
     {
-      "parent": "koala_172",
+      "parent": "koala_169",
       "child": "koala_201",
       "parent_name": "タイチ"
     },
@@ -4911,13 +4967,13 @@
       "parent_name": "アーチャー"
     },
     {
-      "parent": "koala_142",
-      "child": "koala_170",
+      "parent": "koala_141",
+      "child": "koala_167",
       "parent_name": "ヒナタ"
     },
     {
       "parent": "koala_50",
-      "child": "koala_170",
+      "child": "koala_167",
       "parent_name": "アーチャー"
     },
     {
@@ -4931,33 +4987,33 @@
       "parent_name": "アーチャー"
     },
     {
-      "parent": "koala_141",
-      "child": "koala_171",
+      "parent": "koala_140",
+      "child": "koala_168",
       "parent_name": "インディコ"
     },
     {
       "parent": "koala_50",
-      "child": "koala_171",
+      "child": "koala_168",
       "parent_name": "アーチャー"
     },
     {
       "parent": "koala_111",
-      "child": "koala_144",
+      "child": "koala_143",
       "parent_name": "ヒマワリ"
     },
     {
       "parent": "koala_50",
-      "child": "koala_144",
+      "child": "koala_143",
       "parent_name": "アーチャー"
     },
     {
-      "parent": "koala_185",
-      "child": "koala_241",
+      "parent": "koala_183",
+      "child": "koala_243",
       "parent_name": "つくし"
     },
     {
-      "parent": "koala_234",
-      "child": "koala_241",
+      "parent": "koala_236",
+      "child": "koala_243",
       "parent_name": "ライト"
     },
     {
@@ -4972,12 +5028,12 @@
     },
     {
       "parent": "koala_112",
-      "child": "koala_145",
+      "child": "koala_144",
       "parent_name": "カナエ"
     },
     {
       "parent": "koala_50",
-      "child": "koala_145",
+      "child": "koala_144",
       "parent_name": "アーチャー"
     },
     {
@@ -4991,31 +5047,31 @@
       "parent_name": "アーチャー"
     },
     {
-      "parent": "koala_141",
-      "child": "koala_217",
+      "parent": "koala_140",
+      "child": "koala_219",
       "parent_name": "インディコ"
     },
     {
       "parent": "koala_200",
-      "child": "koala_217",
+      "child": "koala_219",
       "parent_name": "ししお"
     }
   ],
   "metadata": {
-    "total_koalas": 241,
-    "total_edges": 373,
+    "total_koalas": 243,
+    "total_edges": 379,
     "max_generation": 9,
     "generations": {
       "0": 50,
-      "4": 26,
-      "6": 16,
+      "4": 24,
+      "6": 18,
       "1": 31,
       "9": 7,
       "8": 17,
       "2": 35,
-      "3": 29,
-      "7": 16,
-      "5": 14
+      "3": 28,
+      "7": 18,
+      "5": 15
     }
   }
 }
