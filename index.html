@@ -531,12 +531,6 @@
                 //this.cy.fit(null, 100);
             }
             
-            adjustByBirthDate() {
-                // Y座標調整は無効化（重複を避けるため）
-                // 生成時の位置情報を使用
-                this.cy.fit(null, 100);
-            }
-            
             setupEventHandlers() {
                 document.getElementById('resetBtn').addEventListener('click', () => {
                     this.cy.reset();
