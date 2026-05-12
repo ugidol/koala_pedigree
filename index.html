@@ -355,7 +355,6 @@
                 const width = 120;
                 const height = 120;
                 const cyNodes = this.nodes.map((node,idx) => {
-                    console.info(`idx=${idx}`)
                     const isAlive = node.alive;
                     const isMale = node.sex === 'M';
                     const status = isAlive ? 'alive' : 'dead';
@@ -392,11 +391,15 @@
                 const elements = [...cyNodes, ...cyEdges];
 
                 // Cytoscapeインスタンスを作成
+                const edgeLength = 1;
                 this.cy = cytoscape({
                     container: document.getElementById('cy'),
                     elements: elements,
                     style: this.getStyles(),
-                    layout: { name: 'cola' }
+                    layout: { name: 'cola' , 
+                        flow: { axis: 'y', minSeparation: 30 },
+                        function( edge ){ return edgeLength; }
+                    }
                 });
                 
                 // 初期レイアウト
@@ -406,7 +409,6 @@
                 this.cy.on('tap', 'node', (event) => {
                     const node = event.target;
                     this.selectNode(node);
-                    console.info(`x:${node.position('x')},y:${node.position('y')}`)
                 });
                 
                 this.cy.on('tap', (event) => {
@@ -516,7 +518,7 @@
                         style: {
                             'line-color': '#FF6B6B',
                             'target-arrow-color': '#FF6B6B',
-                            'width': '4px',
+                            'width': '20px',
                             'opacity': '1'
                         }
                     }
@@ -595,7 +597,13 @@
                 }
             }
             
+            /*
+             * コアラを選択したときの処理.
+             */
             selectNode(node) {
+                /*
+                 * 選択済みであれば、選択解除する.
+                 */
                 if (this.selectedNode) {
                     this.selectedNode.unselect();
                     this.selectedNode.connectedEdges().removeClass('connected-selected');
