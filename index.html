@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>コアラ家系図 - Cytoscape.js版</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.28.1/cytoscape.min.js"></script>
+    <script src="https://unpkg.com/webcola/WebCola/cola.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/cytoscape-cola@2.5.1/cytoscape-cola.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <style>
         * {
@@ -32,7 +34,7 @@
             height: 100vh;
             display: flex;
             flex-direction: column;
-            padding: 20px;
+            padding: 0%;
             gap: 15px;
         }
         
@@ -67,7 +69,7 @@
             background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
             padding: 15px;
             border-bottom: 2px solid #dee2e6;
-            display: flex;
+            display: none;
             gap: 10px;
             align-items: center;
             flex-wrap: wrap;
@@ -322,8 +324,12 @@
                 this.init();
             }
             
+            /**
+             * データの読み込みとCytoscapeの初期化を行う
+             */
             async init() {
                 try {
+                    // コアラの家系図データの読み込み
                     const response = await fetch('pedigree_data.json');
                     const data = await response.json();
                     this.nodes = data.nodes;
@@ -337,13 +343,19 @@
                 } catch (error) {
                     console.error('データ読み込みエラー:', error);
                     document.getElementById('loading').innerHTML = 
-                        'エラー: pedigree_data.jsonが見つかりません。先にgenerate_pedigree_data.pyを実行してください。';
+                        'エラー: pedigree_data.jsonが見つかりません。';
                 }
             }
             
+            /**
+             * Cytoscapeの初期化とノード・エッジの設定を行う
+             */
             initCytoscape() {
                 // ノードをCytoscape形式に変換
-                const cyNodes = this.nodes.map(node => {
+                const width = 120;
+                const height = 120;
+                const cyNodes = this.nodes.map((node,idx) => {
+                    console.info(`idx=${idx}`)
                     const isAlive = node.alive;
                     const isMale = node.sex === 'M';
                     const status = isAlive ? 'alive' : 'dead';
@@ -360,8 +372,8 @@
                             died: node.died
                         },
                         position: {
-                            x: node.x || 0,
-                            y: node.y || 0
+                            x: ( idx % 10 ) * width,
+                            y: ( idx / 10 ) * height 
                         },
                         classes: [gender, status]
                     };
@@ -376,14 +388,15 @@
                     }
                 }));
                 
+                // ノードとエッジを結合
                 const elements = [...cyNodes, ...cyEdges];
-                
+
                 // Cytoscapeインスタンスを作成
                 this.cy = cytoscape({
                     container: document.getElementById('cy'),
                     elements: elements,
                     style: this.getStyles(),
-                    layout: { name: 'preset' }
+                    layout: { name: 'cola' }
                 });
                 
                 // 初期レイアウト
@@ -393,6 +406,7 @@
                 this.cy.on('tap', 'node', (event) => {
                     const node = event.target;
                     this.selectNode(node);
+                    console.info(`x:${node.position('x')},y:${node.position('y')}`)
                 });
                 
                 this.cy.on('tap', (event) => {
@@ -401,11 +415,17 @@
                     }
                 });
                 
+                /*
+                 * ノードにマウスオーバーしたときにツールチップを表示
+                 */
                 this.cy.on('mouseover', 'node', (event) => {
                     const node = event.target;
                     this.showNodeTooltip(node);
                 });
                 
+                /*
+                 * ノードからマウスが離れたときにツールチップを非表示
+                 */
                 this.cy.on('mouseout', 'node', (event) => {
                     this.hideTooltip();
                 });
@@ -506,13 +526,13 @@
             applyHierarchicalLayout() {
                 // 位置情報はノード生成時に preset レイアウトで設定済み
                 // 重複を避けるため、生成時の位置情報をそのまま使用
-                this.cy.fit(null, 50);
+                //this.cy.fit(null, 100);
             }
             
             adjustByBirthDate() {
                 // Y座標調整は無効化（重複を避けるため）
                 // 生成時の位置情報を使用
-                this.cy.fit(null, 50);
+                this.cy.fit(null, 100);
             }
             
             setupEventHandlers() {
@@ -669,7 +689,6 @@
                 `;
             }
         }
-        
         // アプリ初期化
         const app = new KoalaPedigreeCytoscape();
     </script>
