@@ -368,7 +368,7 @@
                             status: status,
                             generation: node.generation,
                             born: node.born,
-                            died: node.died
+                            died: node.died,
                         },
                         position: {
                             x: ( idx % 10 ) * width,
@@ -383,24 +383,37 @@
                     data: {
                         id: `edge-${idx}`,
                         source: edge.parent,
-                        target: edge.child
+                        target: edge.child,
+                        weight: 100
                     }
                 }));
                 
                 // ノードとエッジを結合
                 const elements = [...cyNodes, ...cyEdges];
-
+                
                 // Cytoscapeインスタンスを作成
-                const edgeLength = 1;
                 this.cy = cytoscape({
                     container: document.getElementById('cy'),
-                    elements: elements,
+                    //elements: elements,
                     style: this.getStyles(),
-                    layout: { name: 'cola' , 
-                        flow: { axis: 'y', minSeparation: 30 },
-                        function( edge ){ return edgeLength; }
+                    layout: {
+                        name: 'null'
                     }
                 });
+                this.cy.add(elements);
+
+                const alignmentNodes = this.cy.nodes('[label = "タムタム"], [label = "トムトム"]');
+    
+                // WebCola 形式の制約オブジェクトを作成
+                const alignment = {
+                    horizontal: [
+                        alignmentNodes.map(node => ({ node: node }))
+                    ]
+                };
+
+                // レイアウトの設定
+                this.layout = this.cy.layout(this.makeLayout(alignment));
+                this.layout.run();
                 
                 // 初期レイアウト
                 this.applyHierarchicalLayout();
@@ -431,6 +444,26 @@
                 this.cy.on('mouseout', 'node', (event) => {
                     this.hideTooltip();
                 });
+            }
+
+            /*
+             * レイアウトの設定. 
+             * ここでは、Cytoscape.jsのcolaレイアウトを使用して、ノードの重なりを避けるように配置する.
+             */
+            makeLayout(alignment) {
+                return {
+                    name: 'cola',
+                    flow: { axis: 'y', minSeparation: 30 },
+                    animate: true,
+                    refresh: 3,
+                    randomize: false,
+                    avoidOverlap: true,
+                    infinite: true,
+                    fit: false,
+                    edgeLength: function(edge){ return 100 / edge.data('weight'); },
+                    centerGraph: false,
+                    alignment: alignment
+                };
             }
             
             getStyles() {
@@ -502,6 +535,7 @@
                             'target-arrow-shape': 'triangle',
                             'arrow-scale': '1.5',
                             'curve-style': 'unbundled-bezier',
+                            //'curve-style': 'taxi',
                             'opacity': '0.8'
                         }
                     },
@@ -528,7 +562,7 @@
             applyHierarchicalLayout() {
                 // 位置情報はノード生成時に preset レイアウトで設定済み
                 // 重複を避けるため、生成時の位置情報をそのまま使用
-                //this.cy.fit(null, 100);
+                this.cy.fit(null, 100);
             }
             
             setupEventHandlers() {
