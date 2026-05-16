@@ -619,9 +619,7 @@
             }
             
             applyHierarchicalLayout() {
-                // 位置情報はノード生成時に preset レイアウトで設定済み
-                // 重複を避けるため、生成時の位置情報をそのまま使用
-                this.cy.fit(null, 100);
+                this.cy.fit(null, 0);
             }
             
             setupEventHandlers() {
@@ -698,6 +696,7 @@
                 node.select();
                 node.connectedEdges().addClass('connected-selected');
                 this.selectedNode = node;
+                this.showNodeTooltip(node);
             }
             
             deselectNode() {
@@ -705,31 +704,44 @@
                     this.selectedNode.unselect();
                     this.selectedNode.connectedEdges().removeClass('connected-selected');
                     this.selectedNode = null;
+                    this.hideTooltip();
                 }
             }
             
             showNodeTooltip(node) {
                 const data = node.data();
-                const born = data.born ? new Date(data.born).toLocaleDateString('ja-JP') : '不明';
-                const died = data.died ? new Date(data.died).toLocaleDateString('ja-JP') : '生存中';
-                const status = data.status === 'alive' ? '生存中' : '👼';
-                
-                let tooltip = `${data.label}<br>性別: ${data.sex === 'M' ? 'オス' : 'メス'}<br>`;
-                tooltip += `生年月日: ${born}<br>状態: ${status}`;
-                
-                if (data.died) {
-                    tooltip += `<br>死亡日: ${died}`;
-                }
-                
+                const born = data.born ? new Date(data.born).toLocaleDateString('ja-JP') : '';
+                const died = data.died ? new Date(data.died).toLocaleDateString('ja-JP') : '';
+                const sex = data.sex === 'M' ? '♂' : '♀';
+                const status = data.status === 'alive' ? '' : '👼';
+
+                let tooltip = `${data.label}(${sex})${status}<br>`;
+                tooltip += `${born} - ${died}`;
+
                 const tooltip_el = document.getElementById('tooltip');
                 tooltip_el.innerHTML = tooltip;
                 tooltip_el.style.display = 'block';
-                
+
                 const pos = node.renderedPosition();
-                tooltip_el.style.left = (pos.x + 20) + 'px';
-                tooltip_el.style.top = (pos.y - 30) + 'px';
+                let left = pos.x + 20;
+                let top = pos.y - 30;
+
+                const tooltip_rect = tooltip_el.getBoundingClientRect();
+                const container = document.querySelector('.canvas-container');
+                const container_rect = container.getBoundingClientRect();
+
+                if (left + tooltip_rect.width > container_rect.right) {
+                    left = pos.x - tooltip_rect.width - 20;
+                }
+
+                if (top < container_rect.top) {
+                    top = pos.y + 20;
+                }
+
+                tooltip_el.style.left = left + 'px';
+                tooltip_el.style.top = top + 'px';
             }
-            
+
             hideTooltip() {
                 document.getElementById('tooltip').style.display = 'none';
             }
