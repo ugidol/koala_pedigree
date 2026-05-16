@@ -656,6 +656,10 @@
                 node.connectedEdges().addClass('connected-selected');
                 this.selectedNode = node;
                 this.showNodeTooltip(node);
+                this.cy.animate({
+                    center: { eles: node },
+                    zoom: 1.5
+                }, { duration: 500 });
             }
             
             deselectNode() {
