@@ -172,55 +172,13 @@
             to { transform: rotate(360deg); }
         }
         
-        .info-panel {
-            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-            padding: 15px;
-            border-top: 2px solid #dee2e6;
-            font-size: 0.9em;
-            color: #666;
-            max-height: 60px;
-            overflow-y: auto;
-            display: flex;
-            align-items: center;
-            gap: 20px;
-        }
         
-        .legend {
-            display: flex;
-            gap: 15px;
-            flex-wrap: wrap;
-            margin: 0 auto;
-        }
         
-        .legend-item {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            font-size: 0.85em;
-        }
         
-        .legend-circle {
-            width: 24px;
-            height: 24px;
-            border-radius: 50%;
-            border: 2px solid #333;
-        }
         
-        .legend-circle.male-alive {
-            background: linear-gradient(135deg, #4ECDC4 0%, #44A08D 100%);
-        }
         
-        .legend-circle.male-dead {
-            background: linear-gradient(135deg, #95989A 0%, #5B6269 100%);
-        }
         
-        .legend-circle.female-alive {
-            background: linear-gradient(135deg, #FF6B9D 0%, #E84393 100%);
-        }
         
-        .legend-circle.female-dead {
-            background: linear-gradient(135deg, #95989A 0%, #5B6269 100%);
-        }
         
         .tooltip {
             position: absolute;
@@ -228,7 +186,7 @@
             color: white;
             padding: 12px 16px;
             border-radius: 6px;
-            font-size: 0.85em;
+            font-size: 0.8em;
             pointer-events: none;
             display: none;
             z-index: 1000;
@@ -349,9 +307,6 @@
                 </div>
             </div>
             
-            <div class="info-panel">
-                <div class="legend" id="legend"></div>
-            </div>
         </div>
         
         <div class="tooltip" id="tooltip"></div>
@@ -412,6 +367,8 @@
                             born: node.born,
                             died: node.died,
                             remarks: node.remarks,
+                            dam_name: node.dam_name,
+                            sire_name: node.sire_name,
                         },
                         position: {
                             x: ( idx % 10 ) * width,
@@ -611,6 +568,8 @@
                         style: {
                             'line-color': '#FF6B6B',
                             'target-arrow-color': '#FF6B6B',
+                            'target-arrow-shape': 'triangle',
+                            'arrow-scale': 1,
                             'width': '20px',
                             'opacity': '1'
                         }
@@ -714,9 +673,13 @@
                 const died = data.died ? new Date(data.died).toLocaleDateString('ja-JP') : '';
                 const sex = data.sex === 'M' ? '♂' : '♀';
                 const status = data.status === 'alive' ? '' : '👼';
+                const dam_name = data.dam_name ? `母:${data.dam_name}` : '';
+                const sire_name = data.sire_name ? `父:${data.sire_name}` : '';
 
                 let tooltip = `${data.label}(${sex})${status}<br>`;
                 tooltip += `${born} - ${died}`;
+                tooltip += dam_name ? `<br>${dam_name}` : '';
+                tooltip += sire_name ? `<br>${sire_name}` : '';
 
                 const tooltip_el = document.getElementById('tooltip');
                 tooltip_el.innerHTML = tooltip;
@@ -774,26 +737,6 @@
                     </div>
                 `;
                 
-                // レジェンドを作成
-                const legend = document.getElementById('legend');
-                legend.innerHTML = `
-                    <div class="legend-item">
-                        <div class="legend-circle male-alive"></div>
-                        <span>オス</span>
-                    </div>
-                    <div class="legend-item">
-                        <div class="legend-circle male-dead"></div>
-                        <span>オス (故)</span>
-                    </div>
-                    <div class="legend-item">
-                        <div class="legend-circle female-alive"></div>
-                        <span>メス</span>
-                    </div>
-                    <div class="legend-item">
-                        <div class="legend-circle female-dead"></div>
-                        <span>メス (故)</span>
-                    </div>
-                `;
             }
         }
         // アプリ初期化
