@@ -35,22 +35,21 @@
             display: flex;
             flex-direction: column;
             padding: 0%;
-            gap: 15px;
         }
         
         .header {
-            text-align: center;
+            text-align: left;
             color: white;
         }
         
         .header h1 {
-            font-size: 2.5em;
+            font-size: 1em;
             margin-bottom: 5px;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
         }
         
         .header p {
-            font-size: 1em;
+            font-size: 0.8em;
             opacity: 0.9;
         }
         
@@ -247,19 +246,24 @@
 
         .search-box {
             display: flex;
-            gap: 10px;
-            margin-left: 10px;
+            gap: 8px;
+            align-items: center;
             background: white;
-            padding: 8px 12px;
+            padding: 8px 8px;
             border-radius: 20px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 600px;
         }
 
         .search-box input {
             border: none;
             outline: none;
-            width: 150px;
+            flex: 1;
             font-size: 0.9em;
+            padding: 6px 8px;
+            background: white;
+            min-width: 0;
         }
 
         .search-box button {
@@ -270,6 +274,15 @@
             color: white;
             cursor: pointer;
             font-size: 0.85em;
+            flex-shrink: 0;
+            box-shadow: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .search-box button:hover {
+            background: #5568d3;
         }
     </style>
 </head>
@@ -277,8 +290,12 @@
     <div class="container">
         <div class="header">
             <h1>🐨コアラ家系図</h1>
-            <div>AIに作ってもらいました<br>
+            <p>AIに作ってもらいました<br>
                 データ参考元→<a href="https://w.atwiki.jp/koala_wiki/">コアラWIKI in JAPAN</a>
+            </p>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="コアラ名で検索...">
+                <button id="searchBtn"><i class="fas fa-search"></i></button>
             </div>
         </div>
         
@@ -291,10 +308,6 @@
                 <button id="zoomOutBtn"><i class="fas fa-minus"></i> ズーム-</button>
                 <button id="downloadBtn"><i class="fas fa-download"></i> PNG</button>
                 
-                <div class="search-box">
-                    <input type="text" id="searchInput" placeholder="コアラ名で検索...">
-                    <button id="searchBtn"><i class="fas fa-search"></i></button>
-                </div>
                 
                 <div class="stats" id="stats"></div>
             </div>
@@ -366,9 +379,10 @@
                             label: node.name,
                             sex: node.sex,
                             status: status,
-                            generation: node.generation,
+                            //generation: node.generation,
                             born: node.born,
                             died: node.died,
+                            remarks: node.remarks,
                         },
                         position: {
                             x: ( idx % 10 ) * width,
@@ -381,7 +395,7 @@
                 // エッジをCytoscape形式に変換
                 const cyEdges = this.edges.map((edge, idx) => ({
                     data: {
-                        id: `edge-${idx}`,
+                        id: `E${idx}`,
                         source: edge.parent,
                         target: edge.child,
                         weight: 100
@@ -402,14 +416,30 @@
                 });
                 this.cy.add(elements);
 
-                const alignmentNodes = this.cy.nodes('[label = "タムタム"], [label = "トムトム"]');
-    
+                const remarksMap = [];
+                this.cy.nodes().forEach(node => {
+                    const data = node.data();
+                    const remarks = data.remarks || '';
+                    if ( remarks != '' ) {
+                        if ( !remarksMap.includes(remarks) ) {
+                            remarksMap.push(remarks);
+                        }
+                    }
+                })
+
                 // WebCola 形式の制約オブジェクトを作成
                 const alignment = {
                     horizontal: [
-                        alignmentNodes.map(node => ({ node: node }))
                     ]
                 };
+                for(const key of remarksMap) {
+                    console.log(key);
+                    const nodes = this.cy.nodes().filter(n => n.data('remarks') === key);
+                    if (nodes.length > 0) {
+                        console.log(nodes.map(n => n.data('label')));
+                        alignment.horizontal.push( nodes.map(n => ({ node: n })) );
+                    }
+                }
 
                 // レイアウトの設定
                 this.layout = this.cy.layout(this.makeLayout(alignment));
@@ -620,7 +650,7 @@
                     this.selectNode(node[0]);
                     this.cy.animate({
                         center: { eles: node[0] },
-                        zoom: 2
+                        zoom: 1.0
                     }, { duration: 500 });
                 }
             }
