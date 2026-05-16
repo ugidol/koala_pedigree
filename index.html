@@ -497,7 +497,8 @@
                             'width': '60px',
                             'height': '60px',
                             'text-wrap': 'wrap',
-                            'text-max-width': '50px'
+                            'text-max-width': '50px',
+                            'text-outline-width': '2px',
                         }
                     },
                     {
@@ -505,7 +506,8 @@
                         style: {
                             'background-color': '#4ECDC4',
                             'border-color': '#2a9d8f',
-                            'color': '#ffffff'
+                            'color': '#ffffff',
+                            'text-outline-color': '#4ECDC4'
                         }
                     },
                     {
@@ -514,6 +516,7 @@
                             'background-color': '#95989A',
                             'border-color': '#3a3f45',
                             'color': '#ffffff',
+                            'text-outline-color': '#95989A',
                             'opacity': '0.7'
                         }
                     },
@@ -522,7 +525,8 @@
                         style: {
                             'background-color': '#FF6B9D',
                             'border-color': '#D91E63',
-                            'color': '#ffffff'
+                            'color': '#ffffff',
+                            'text-outline-color': '#FF6B9D'
                         }
                     },
                     {
@@ -531,6 +535,7 @@
                             'background-color': '#95989A',
                             'border-color': '#7B3FA1',
                             'color': '#ffffff',
+                            'text-outline-color': '#95989A',
                             'opacity': '0.7'
                         }
                     },
@@ -551,16 +556,8 @@
                             'target-arrow-shape': 'triangle',
                             'arrow-scale': '1.5',
                             'curve-style': 'unbundled-bezier',
-                            //'curve-style': 'taxi',
-                            'opacity': '0.8'
-                        }
-                    },
-                    {
-                        selector: 'edge:selected',
-                        style: {
-                            'line-color': '#667eea',
-                            'target-arrow-color': '#667eea',
-                            'width': '3px'
+                            'opacity': '0.8',
+                            'selectable': false
                         }
                     },
                     {
@@ -569,8 +566,8 @@
                             'line-color': '#FF6B6B',
                             'target-arrow-color': '#FF6B6B',
                             'target-arrow-shape': 'triangle',
-                            'arrow-scale': 1,
-                            'width': '20px',
+                            'arrow-scale': 1.0,
+                            'width': '10px',
                             'opacity': '1'
                         }
                     }
